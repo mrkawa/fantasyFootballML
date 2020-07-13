@@ -1,0 +1,11 @@
+﻿,,Season Totals,,,,Split by Position,,,,Multioutput,,,,Teammate Data,,,,Opponent Data,,,
+,,Base/Default Model,Hyperparameter Optimization,Manual Feature Selection,PCA,Base/Default Model,Hyperparameter Optimization,Manual Feature Selection,PCA,Base/Default Model,Hyperparameter Optimization,Manual Feature Selection,PCA,Base/Default Model,Hyperparameter Optimization,Manual Feature Selection,PCA,Base/Default Model,Hyperparameter Optimization,Manual Feature Selection,PCA
+Regression,Linear,,,,,,,,,,,,,,,,,,,,
+,Bayesian Ridge,,,,,,,,,,,,,,,,,,,,
+,Lasso,,,,,,,,,,,,,,,,,,,,
+,ElasticNet,,,,,,,,,,,,,,,,,,,,
+SVM,Kernel Ridge,,,,,,,,,,,,,,,,,,,,
+Neighbors,KNN,,,,,,,,,,,,,,,,,,,,
+Neural Networks,MLP,,,,,,,,,,,,,,,,,,,,
+Trees,Decision Tree,,,,,,,,,,,,,,,,,,,,
+,Random Forest,,,,,,,,,,,,,,,,,,,,
