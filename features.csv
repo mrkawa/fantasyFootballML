@@ -21,7 +21,7 @@ play_type,"String indicating the type of play: pass (includes sacks), run (inclu
 posteam_type,String indicating whether the posteam team is home or away.,1,1,1,1,String,,0,0,1,0,0,0,0,1
 fumble,Binary indicator for if a fumble occurred.,1,1,1,1,Binary,,1,0,0,0,0,0,0,1
 incomplete_pass,Binary indicator for if the pass was incomplete.,,,,,Binary,,1,0,0,0,0,0,0,1
-interception,Binary indicator for if the pass was intercepted.,,,,,Binary,,1,0,0,0,0,0,0,1
+interception,Binary indicator for if the pass was intercepted.,1,1,,,Binary,,1,0,0,0,0,0,0,1
 no_huddle,Binary indicator for whether or not the play was in no_huddle formation.,,,,,Binary,,1,0,0,0,0,0,0,1
 safety,Binary indicator for whether or not a safety occurred.,,,,,Binary,,1,0,0,0,0,0,0,1
 shotgun,Binary indicator for whether or not the play was in shotgun formation.,,,,,Binary,,1,0,0,0,0,0,0,1
