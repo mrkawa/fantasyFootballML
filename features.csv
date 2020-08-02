@@ -212,7 +212,7 @@ assist_tackle_1_team,Team of one of the players with a tackle assist.,,,,,String
 assist_tackle_2_team,Team of one of the players with a tackle assist.,,,,,String,team,0,0,1,0,0,0,0,1
 assist_tackle_3_team,Team of one of the players with a tackle assist.,,,,,String,team,0,0,1,0,0,0,0,1
 assist_tackle_4_team,Team of one of the players with a tackle assist.,,,,,String,team,0,0,1,0,0,0,0,1
-defteam,String abbreviation for the team on defense.,,,,,String,team,0,0,1,0,0,0,0,1
+defteam,String abbreviation for the team on defense.,1,1,1,1,String,team,0,0,1,0,0,0,0,1
 forced_fumble_player_1_team,Team of one of the players with a forced fumble.,,,,,String,team,0,0,1,0,0,0,0,1
 forced_fumble_player_2_team,Team of one of the players with a forced fumble.,,,,,String,team,0,0,1,0,0,0,0,1
 fumble_recovery_1_team,Team of one of the players with a fumble recovery.,,,,,String,team,0,0,1,0,0,0,0,1
@@ -221,7 +221,7 @@ fumbled_1_team,Team of one of the players with a fumble.,,,,,String,team,0,0,1,0
 fumbled_2_team,Team of one of the players with a fumble.,,,,,String,team,0,0,1,0,0,0,0,1
 penalty_team,String abbreviation of the team with the penalty.,,,,,String,team,0,0,1,0,0,0,0,1
 penalty_type,String indicating the penalty type.,,,,,String,team,0,0,1,0,0,0,0,1
-posteam,String abbreviation for the team with possession.,,,,,String,team,0,0,1,0,0,0,0,1
+posteam,String abbreviation for the team with possession.,1,1,1,1,String,team,0,0,1,0,0,0,0,1
 replay_or_challenge_result,String indicating the result of the replay or challenge.,,,,,String,team,0,0,1,0,0,0,0,1
 return_team,String abbreviation of the return team.,,,,,String,team,0,0,1,0,0,0,0,1
 solo_tackle_1_team,Team of one of the players with a solo tackle.,,,,,String,team,0,0,1,0,0,0,0,1
