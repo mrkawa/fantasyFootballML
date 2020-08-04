@@ -1,200 +1,234 @@
 ,Algorithm,Type,Phase,Sub-phase,Position,MAE,RMSE,R^2
-0,Neighbors,KNN,Multioutput,"Downselected, Standardized Features",QB,61.4,79.2,0.33
-1,Neighbors,KNN,Multioutput,"Downselected, Standardized Features",RB,44.8,67.5,0.3
-2,Neighbors,KNN,Multioutput,"Downselected, Standardized Features",TE,23.0,31.9,0.39
-3,Neighbors,KNN,Multioutput,"Downselected, Standardized Features",WR,38.4,59.5,0.3
-4,Neighbors,KNN,Multioutput,Optimized,QB,53.0,72.3,0.44
-5,Neighbors,KNN,Multioutput,Optimized,RB,42.8,65.6,0.34
-6,Neighbors,KNN,Multioutput,Optimized,TE,21.3,31.0,0.43
-7,Neighbors,KNN,Multioutput,Optimized,WR,37.7,56.8,0.37
-8,Neighbors,KNN,Opponent Data,"Downselected, Standardized Features",QB,50.0,74.8,0.38
-9,Neighbors,KNN,Opponent Data,"Downselected, Standardized Features",RB,39.7,61.0,0.21
-10,Neighbors,KNN,Opponent Data,"Downselected, Standardized Features",TE,23.5,34.9,0.35
-11,Neighbors,KNN,Opponent Data,"Downselected, Standardized Features",WR,35.1,51.2,0.31
-12,Neighbors,KNN,Opponent Data,Optimized,QB,52.6,69.5,0.46
-13,Neighbors,KNN,Opponent Data,Optimized,RB,37.5,56.5,0.33
-14,Neighbors,KNN,Opponent Data,Optimized,TE,23.2,33.2,0.41
-15,Neighbors,KNN,Opponent Data,Optimized,WR,34.8,49.0,0.37
-16,Neighbors,KNN,PCA,"Downselected, Standardized Features",QB,65.0,84.8,0.39
-17,Neighbors,KNN,PCA,"Downselected, Standardized Features",RB,44.8,68.4,0.3
-18,Neighbors,KNN,PCA,"Downselected, Standardized Features",TE,23.3,32.3,0.4
-19,Neighbors,KNN,PCA,"Downselected, Standardized Features",WR,38.8,60.5,0.31
-20,Neighbors,KNN,PCA,Optimized,QB,63.4,82.1,0.43
-21,Neighbors,KNN,PCA,Optimized,RB,44.1,64.9,0.37
-22,Neighbors,KNN,PCA,Optimized,TE,22.7,32.1,0.41
-23,Neighbors,KNN,PCA,Optimized,WR,38.2,57.2,0.38
-24,Neighbors,KNN,Season Total + Game Mean Data,Base Model,All,33.1,48.8,0.41
-25,Neighbors,KNN,Season Total + Game Mean Data,Manual Feature Selection,All,31.2,47.2,0.45
-26,Neighbors,KNN,Season Total + Game Mean Data,Optimized + Standardized,All,30.7,48.8,0.41
-27,Neighbors,KNN,Season Total Data,Base Model,All,33.1,48.8,0.41
-28,Neighbors,KNN,Season Total Data,Hyperparameter Optimization,All,31.6,47.4,0.45
-29,Neighbors,KNN,Season Total Data,Manual Feature Selection,All,31.3,47.3,0.45
-30,Neighbors,KNN,Season Total Data,Standardization,All,32.0,48.4,0.42
-31,Neighbors,KNN,Split by Position,"Downselected, Standardized Features",QB,71.1,89.0,0.33
-32,Neighbors,KNN,Split by Position,"Downselected, Standardized Features",RB,44.8,68.4,0.3
-33,Neighbors,KNN,Split by Position,"Downselected, Standardized Features",TE,23.3,32.3,0.4
-34,Neighbors,KNN,Split by Position,"Downselected, Standardized Features",WR,39.6,60.1,0.32
-35,Neighbors,KNN,Split by Position,Optimized,QB,61.7,82.7,0.42
-36,Neighbors,KNN,Split by Position,Optimized,RB,43.3,65.9,0.35
-37,Neighbors,KNN,Split by Position,Optimized,TE,21.9,31.9,0.42
-38,Neighbors,KNN,Split by Position,Optimized,WR,38.4,57.6,0.37
-39,Neighbors,KNN,Teammate Data,"Downselected, Standardized Features",QB,52.6,72.7,0.48
-40,Neighbors,KNN,Teammate Data,"Downselected, Standardized Features",RB,40.2,63.7,0.23
-41,Neighbors,KNN,Teammate Data,"Downselected, Standardized Features",TE,27.2,33.7,0.2
-42,Neighbors,KNN,Teammate Data,"Downselected, Standardized Features",WR,38.1,54.3,0.32
-43,Neighbors,KNN,Teammate Data,Optimized,QB,55.8,70.6,0.51
-44,Neighbors,KNN,Teammate Data,Optimized,RB,43.5,59.1,0.34
-45,Neighbors,KNN,Teammate Data,Optimized,TE,24.2,30.7,0.34
-46,Neighbors,KNN,Teammate Data,Optimized,WR,37.0,52.9,0.35
-47,Neural Networks,MLP,Multioutput,"Downselected, Standardized Features",QB,56.3,76.0,0.38
-48,Neural Networks,MLP,Multioutput,"Downselected, Standardized Features",RB,45.0,63.6,0.38
-49,Neural Networks,MLP,Multioutput,"Downselected, Standardized Features",TE,20.9,30.2,0.46
-50,Neural Networks,MLP,Multioutput,"Downselected, Standardized Features",WR,38.7,56.8,0.37
-51,Neural Networks,MLP,Multioutput,Optimized,QB,54.2,73.5,0.42
-52,Neural Networks,MLP,Multioutput,Optimized,RB,43.5,60.7,0.44
-53,Neural Networks,MLP,Multioutput,Optimized,TE,20.7,29.4,0.49
-54,Neural Networks,MLP,Multioutput,Optimized,WR,37.5,55.3,0.4
-55,Neural Networks,MLP,Opponent Data,"Downselected, Standardized Features",QB,55.0,70.5,0.45
-56,Neural Networks,MLP,Opponent Data,"Downselected, Standardized Features",RB,40.4,54.5,0.37
-57,Neural Networks,MLP,Opponent Data,"Downselected, Standardized Features",TE,24.3,33.2,0.41
-58,Neural Networks,MLP,Opponent Data,"Downselected, Standardized Features",WR,36.0,52.2,0.28
-59,Neural Networks,MLP,Opponent Data,Optimized,QB,53.2,69.6,0.46
-60,Neural Networks,MLP,Opponent Data,Optimized,RB,40.8,54.5,0.37
-61,Neural Networks,MLP,Opponent Data,Optimized,TE,22.6,31.9,0.45
-62,Neural Networks,MLP,Opponent Data,Optimized,WR,35.2,49.7,0.35
-63,Neural Networks,MLP,PCA,"Downselected, Standardized Features",QB,76.0,101.3,0.13
-64,Neural Networks,MLP,PCA,"Downselected, Standardized Features",RB,54.9,78.5,0.07
-65,Neural Networks,MLP,PCA,"Downselected, Standardized Features",TE,29.8,44.2,-0.12
-66,Neural Networks,MLP,PCA,"Downselected, Standardized Features",WR,50.1,78.7,-0.17
-67,Neural Networks,MLP,PCA,Optimized,QB,75.0,96.0,0.22
-68,Neural Networks,MLP,PCA,Optimized,RB,46.6,68.3,0.3
-69,Neural Networks,MLP,PCA,Optimized,TE,21.7,31.5,0.43
-70,Neural Networks,MLP,PCA,Optimized,WR,40.3,59.1,0.34
-71,Neural Networks,MLP,Season Total + Game Mean Data,Base Model,All,33.7,50.9,0.36
-72,Neural Networks,MLP,Season Total + Game Mean Data,Manual Feature Selection,All,31.2,46.7,0.46
-73,Neural Networks,MLP,Season Total + Game Mean Data,Optimized + Standardized,All,31.3,46.7,0.46
-74,Neural Networks,MLP,Season Total Data,Base Model,All,33.2,49.3,0.4
-75,Neural Networks,MLP,Season Total Data,Hyperparameter Optimization,All,31.0,47.1,0.45
-76,Neural Networks,MLP,Season Total Data,Manual Feature Selection,All,31.8,47.1,0.45
-77,Neural Networks,MLP,Season Total Data,Standardization,All,31.7,47.4,0.45
-78,Neural Networks,MLP,Split by Position,"Downselected, Standardized Features",QB,62.9,84.4,0.4
-79,Neural Networks,MLP,Split by Position,"Downselected, Standardized Features",RB,46.2,64.4,0.38
-80,Neural Networks,MLP,Split by Position,"Downselected, Standardized Features",TE,22.7,32.0,0.41
-81,Neural Networks,MLP,Split by Position,"Downselected, Standardized Features",WR,39.2,58.3,0.36
-82,Neural Networks,MLP,Split by Position,Optimized,QB,62.4,81.0,0.44
-83,Neural Networks,MLP,Split by Position,Optimized,RB,44.2,61.9,0.42
-84,Neural Networks,MLP,Split by Position,Optimized,TE,22.5,32.6,0.39
-85,Neural Networks,MLP,Split by Position,Optimized,WR,38.3,56.6,0.39
-86,Neural Networks,MLP,Teammate Data,"Downselected, Standardized Features",QB,55.7,75.4,0.44
-87,Neural Networks,MLP,Teammate Data,"Downselected, Standardized Features",RB,41.2,58.0,0.36
-88,Neural Networks,MLP,Teammate Data,"Downselected, Standardized Features",TE,23.7,31.3,0.31
-89,Neural Networks,MLP,Teammate Data,"Downselected, Standardized Features",WR,40.7,57.2,0.24
-90,Neural Networks,MLP,Teammate Data,Optimized,QB,54.6,69.8,0.52
-91,Neural Networks,MLP,Teammate Data,Optimized,RB,40.0,56.4,0.4
-92,Neural Networks,MLP,Teammate Data,Optimized,TE,23.1,31.1,0.32
-93,Neural Networks,MLP,Teammate Data,Optimized,WR,38.9,52.4,0.36
-94,Regression,Bayesian Ridge,Season Total Data,Base Model,All,31.6,47.3,0.45
-95,Regression,Bayesian Ridge,Season Total Data,Hyperparameter Optimization,All,31.6,47.3,0.45
-96,Regression,Bayesian Ridge,Season Total Data,Manual Feature Selection,All,31.7,47.4,0.45
-97,Regression,Bayesian Ridge,Season Total Data,Standardization,All,31.6,47.2,0.45
-98,Regression,ElasticNet,Multioutput,"Downselected, Standardized Features",QB,52.7,72.2,0.44
-99,Regression,ElasticNet,Multioutput,"Downselected, Standardized Features",RB,44.5,61.4,0.42
-100,Regression,ElasticNet,Multioutput,"Downselected, Standardized Features",TE,21.2,29.7,0.48
-101,Regression,ElasticNet,Multioutput,"Downselected, Standardized Features",WR,37.7,54.5,0.42
-102,Regression,ElasticNet,Multioutput,Optimized,QB,53.3,72.7,0.43
-103,Regression,ElasticNet,Multioutput,Optimized,RB,43.9,60.8,0.43
-104,Regression,ElasticNet,Multioutput,Optimized,TE,20.8,29.0,0.5
-105,Regression,ElasticNet,Multioutput,Optimized,WR,37.3,54.0,0.43
-106,Regression,ElasticNet,Opponent Data,"Downselected, Standardized Features",QB,53.0,68.7,0.48
-107,Regression,ElasticNet,Opponent Data,"Downselected, Standardized Features",RB,40.2,53.7,0.39
-108,Regression,ElasticNet,Opponent Data,"Downselected, Standardized Features",TE,23.6,32.2,0.45
-109,Regression,ElasticNet,Opponent Data,"Downselected, Standardized Features",WR,35.7,49.2,0.36
-110,Regression,ElasticNet,Opponent Data,Optimized,QB,52.4,68.1,0.48
-111,Regression,ElasticNet,Opponent Data,Optimized,RB,39.9,52.9,0.41
-112,Regression,ElasticNet,Opponent Data,Optimized,TE,23.0,31.7,0.46
-113,Regression,ElasticNet,Opponent Data,Optimized,WR,35.4,49.0,0.37
-114,Regression,ElasticNet,PCA,"Downselected, Standardized Features",QB,61.2,80.8,0.45
-115,Regression,ElasticNet,PCA,"Downselected, Standardized Features",RB,44.9,62.1,0.42
-116,Regression,ElasticNet,PCA,"Downselected, Standardized Features",TE,21.6,30.1,0.48
-117,Regression,ElasticNet,PCA,"Downselected, Standardized Features",WR,38.2,55.3,0.42
-118,Regression,ElasticNet,PCA,Optimized,QB,61.2,80.9,0.45
-119,Regression,ElasticNet,PCA,Optimized,RB,44.4,61.6,0.43
-120,Regression,ElasticNet,PCA,Optimized,TE,20.8,30.1,0.48
-121,Regression,ElasticNet,PCA,Optimized,WR,37.8,55.3,0.42
-122,Regression,ElasticNet,Season Total + Game Mean Data,Base Model,All,31.6,47.2,0.45
-123,Regression,ElasticNet,Season Total + Game Mean Data,Manual Feature Selection,All,31.5,47.2,0.45
-124,Regression,ElasticNet,Season Total + Game Mean Data,Optimized + Standardized,All,31.4,46.8,0.46
-125,Regression,ElasticNet,Season Total Data,Base Model,All,31.6,47.3,0.45
-126,Regression,ElasticNet,Season Total Data,Hyperparameter Optimization,All,31.6,47.3,0.45
-127,Regression,ElasticNet,Season Total Data,Manual Feature Selection,All,31.7,47.4,0.45
-128,Regression,ElasticNet,Season Total Data,Standardization,All,31.7,47.2,0.45
-129,Regression,ElasticNet,Split by Position,"Downselected, Standardized Features",QB,61.9,81.5,0.44
-130,Regression,ElasticNet,Split by Position,"Downselected, Standardized Features",RB,44.3,61.6,0.43
-131,Regression,ElasticNet,Split by Position,"Downselected, Standardized Features",TE,20.9,29.7,0.49
-132,Regression,ElasticNet,Split by Position,"Downselected, Standardized Features",WR,37.8,54.9,0.43
-133,Regression,ElasticNet,Split by Position,Optimized,QB,31.9,81.5,0.44
-134,Regression,ElasticNet,Split by Position,Optimized,RB,44.3,61.6,0.43
-135,Regression,ElasticNet,Split by Position,Optimized,TE,20.9,29.7,0.49
-136,Regression,ElasticNet,Split by Position,Optimized,WR,37.8,54.9,0.43
-137,Regression,ElasticNet,Teammate Data,"Downselected, Standardized Features",QB,53.2,69.0,0.53
-138,Regression,ElasticNet,Teammate Data,"Downselected, Standardized Features",RB,40.6,56.3,0.4
-139,Regression,ElasticNet,Teammate Data,"Downselected, Standardized Features",TE,22.7,29.6,0.38
-140,Regression,ElasticNet,Teammate Data,"Downselected, Standardized Features",WR,37.1,50.0,0.42
-141,Regression,ElasticNet,Teammate Data,Optimized,QB,52.9,68.5,0.54
-142,Regression,ElasticNet,Teammate Data,Optimized,RB,39.5,54.9,0.43
-143,Regression,ElasticNet,Teammate Data,Optimized,TE,22.0,29.2,0.4
-144,Regression,ElasticNet,Teammate Data,Optimized,WR,36.7,49.6,0.43
-145,Regression,Lasso,Multioutput,"Downselected, Standardized Features",QB,54.4,74.1,0.41
-146,Regression,Lasso,Multioutput,"Downselected, Standardized Features",RB,43.6,60.7,0.44
-147,Regression,Lasso,Multioutput,"Downselected, Standardized Features",TE,20.6,29.8,0.47
-148,Regression,Lasso,Multioutput,"Downselected, Standardized Features",WR,37.4,54.8,0.41
-149,Regression,Lasso,Multioutput,Optimized,QB,53.3,72.7,0.43
-150,Regression,Lasso,Multioutput,Optimized,RB,43.9,60.8,0.43
-151,Regression,Lasso,Multioutput,Optimized,TE,20.8,29.0,0.5
-152,Regression,Lasso,Multioutput,Optimized,WR,37.3,54.0,0.43
-153,Regression,Lasso,Opponent Data,"Downselected, Standardized Features",QB,53.3,69.6,0.46
-154,Regression,Lasso,Opponent Data,"Downselected, Standardized Features",RB,40.3,53.3,0.4
-155,Regression,Lasso,Opponent Data,"Downselected, Standardized Features",TE,22.9,31.6,0.47
-156,Regression,Lasso,Opponent Data,"Downselected, Standardized Features",WR,35.5,49.2,0.36
-157,Regression,Lasso,Opponent Data,Optimized,QB,52.4,68.1,0.48
-158,Regression,Lasso,Opponent Data,Optimized,RB,39.9,52.9,0.41
-159,Regression,Lasso,Opponent Data,Optimized,TE,23.0,31.7,0.46
-160,Regression,Lasso,Opponent Data,Optimized,WR,35.4,49.0,0.37
-161,Regression,Lasso,PCA,"Downselected, Standardized Features",QB,61.3,81.0,0.44
-162,Regression,Lasso,PCA,"Downselected, Standardized Features",RB,44.5,61.8,0.43
-163,Regression,Lasso,PCA,"Downselected, Standardized Features",TE,21.4,30.1,0.48
-164,Regression,Lasso,PCA,"Downselected, Standardized Features",WR,38.1,55.4,0.42
-165,Regression,Lasso,PCA,Optimized,QB,60.9,80.4,0.45
-166,Regression,Lasso,PCA,Optimized,RB,44.5,61.9,0.43
-167,Regression,Lasso,PCA,Optimized,TE,21.1,30.1,0.48
-168,Regression,Lasso,PCA,Optimized,WR,37.8,55.5,0.42
-169,Regression,Lasso,Season Total + Game Mean Data,Base Model,All,31.6,47.2,0.45
-170,Regression,Lasso,Season Total + Game Mean Data,Manual Feature Selection,All,31.5,47.2,0.45
-171,Regression,Lasso,Season Total + Game Mean Data,Optimized + Standardized,All,31.4,46.8,0.46
-172,Regression,Lasso,Season Total Data,Base Model,All,31.6,47.3,0.45
-173,Regression,Lasso,Season Total Data,Hyperparameter Optimization,All,31.8,47.4,0.45
-174,Regression,Lasso,Season Total Data,Manual Feature Selection,All,31.4,47.4,0.45
-175,Regression,Lasso,Season Total Data,Standardization,All,31.8,47.4,0.45
-176,Regression,Lasso,Split by Position,"Downselected, Standardized Features",QB,61.6,81.8,0.43
-177,Regression,Lasso,Split by Position,"Downselected, Standardized Features",RB,44.2,61.6,0.43
-178,Regression,Lasso,Split by Position,"Downselected, Standardized Features",TE,20.9,29.5,0.5
-179,Regression,Lasso,Split by Position,"Downselected, Standardized Features",WR,37.8,55.0,0.43
-180,Regression,Lasso,Split by Position,Optimized,QB,61.9,81.5,0.44
-181,Regression,Lasso,Split by Position,Optimized,RB,44.3,61.6,0.43
-182,Regression,Lasso,Split by Position,Optimized,TE,20.9,29.7,0.49
-183,Regression,Lasso,Split by Position,Optimized,WR,37.8,54.9,0.43
-184,Regression,Lasso,Teammate Data,"Downselected, Standardized Features",QB,53.0,69.9,0.52
-185,Regression,Lasso,Teammate Data,"Downselected, Standardized Features",RB,39.3,54.8,0.43
-186,Regression,Lasso,Teammate Data,"Downselected, Standardized Features",TE,22.1,29.2,0.4
-187,Regression,Lasso,Teammate Data,"Downselected, Standardized Features",WR,37.0,50.1,0.42
-188,Regression,Lasso,Teammate Data,Optimized,QB,52.9,68.5,0.54
-189,Regression,Lasso,Teammate Data,Optimized,RB,39.5,54.9,0.43
-190,Regression,Lasso,Teammate Data,Optimized,TE,22.0,29.2,0.4
-191,Regression,Lasso,Teammate Data,Optimized,WR,36.7,49.6,0.43
-192,Regression,Linear,Season Total Data,Base Model,All,31.7,47.1,0.45
-193,Regression,Ridge,Season Total Data,Base Model,All,31.7,47.4,0.45
-194,Regression,Ridge,Season Total Data,Hyperparameter Optimization,All,31.6,47.3,0.45
-195,SVM,Kernel Ridge (Linear),Season Total Data,Base Model,All,29.9,50.4,0.38
-196,SVM,Kernel Ridge (Linear),Season Total Data,Hyperparameter Optimization,All,29.9,50.3,0.38
-197,SVM,Kernel Ridge (Linear),Season Total Data,Manual Feature Selection,All,29.7,50.2,0.38
-198,SVM,Kernel Ridge (Linear),Season Total Data,Standardization,All,51.7,67.7,-0.13
+0,Decision Trees,Random Forest,Multioutput,"Downselected, Standardized Features",QB,60.0,76.0,0.38
+1,Decision Trees,Random Forest,Multioutput,"Downselected, Standardized Features",RB,41.1,63.0,0.39
+2,Decision Trees,Random Forest,Multioutput,"Downselected, Standardized Features",TE,22.1,30.3,0.45
+3,Decision Trees,Random Forest,Multioutput,"Downselected, Standardized Features",WR,36.9,53.5,0.44
+4,Decision Trees,Random Forest,Multioutput,Optimized,QB,61.4,76.8,0.37
+5,Decision Trees,Random Forest,Multioutput,Optimized,RB,41.3,63.0,0.39
+6,Decision Trees,Random Forest,Multioutput,Optimized,TE,22.4,30.7,0.44
+7,Decision Trees,Random Forest,Multioutput,Optimized,WR,37.1,54.2,0.42
+8,Decision Trees,Random Forest,Opponent Data,"Downselected, Standardized Features",QB,51.0,68.7,0.48
+9,Decision Trees,Random Forest,Opponent Data,"Downselected, Standardized Features",RB,38.8,59.6,0.25
+10,Decision Trees,Random Forest,Opponent Data,"Downselected, Standardized Features",TE,22.3,30.9,0.49
+11,Decision Trees,Random Forest,Opponent Data,"Downselected, Standardized Features",WR,33.0,48.5,0.38
+12,Decision Trees,Random Forest,Opponent Data,Optimized,QB,51.2,69.1,0.47
+13,Decision Trees,Random Forest,Opponent Data,Optimized,RB,38.9,59.6,0.25
+14,Decision Trees,Random Forest,Opponent Data,Optimized,TE,22.6,31.3,0.48
+15,Decision Trees,Random Forest,Opponent Data,Optimized,WR,33.3,48.6,0.38
+16,Decision Trees,Random Forest,Season Total + Game Mean Data,Base Model,All,37.8,55.0,0.47
+17,Decision Trees,Random Forest,Season Total + Game Mean Data,Manual Feature Selection,All,37.9,55.0,0.47
+18,Decision Trees,Random Forest,Split by Position,"Downselected, Standardized Features",QB,66.2,81.0,0.3
+19,Decision Trees,Random Forest,Split by Position,"Downselected, Standardized Features",RB,42.8,62.8,0.4
+20,Decision Trees,Random Forest,Split by Position,"Downselected, Standardized Features",TE,23.8,32.5,0.37
+21,Decision Trees,Random Forest,Split by Position,"Downselected, Standardized Features",WR,35.5,52.9,0.45
+22,Decision Trees,Random Forest,Split by Position,Optimized,QB,65.6,79.6,0.32
+23,Decision Trees,Random Forest,Split by Position,Optimized,RB,43.4,62.3,0.41
+24,Decision Trees,Random Forest,Split by Position,Optimized,TE,23.0,31.6,0.41
+25,Decision Trees,Random Forest,Split by Position,Optimized,WR,36.3,53.4,0.44
+26,Decision Trees,Random Forest,Teammate Data,"Downselected, Standardized Features",QB,50.7,73.2,0.48
+27,Decision Trees,Random Forest,Teammate Data,"Downselected, Standardized Features",RB,37.4,59.6,0.33
+28,Decision Trees,Random Forest,Teammate Data,"Downselected, Standardized Features",TE,22.3,30.3,0.35
+29,Decision Trees,Random Forest,Teammate Data,"Downselected, Standardized Features",WR,35.9,50.1,0.42
+30,Decision Trees,Random Forest,Teammate Data,Optimized,QB,50.5,72.1,0.49
+31,Decision Trees,Random Forest,Teammate Data,Optimized,RB,37.9,59.9,0.32
+32,Decision Trees,Random Forest,Teammate Data,Optimized,TE,21.9,30.2,0.36
+33,Decision Trees,Random Forest,Teammate Data,Optimized,WR,35.9,50.6,0.4
+34,Neighbors,KNN,Multioutput,"Downselected, Standardized Features",QB,61.4,79.2,0.33
+35,Neighbors,KNN,Multioutput,"Downselected, Standardized Features",RB,44.8,67.5,0.3
+36,Neighbors,KNN,Multioutput,"Downselected, Standardized Features",TE,23.0,31.9,0.39
+37,Neighbors,KNN,Multioutput,"Downselected, Standardized Features",WR,38.4,59.5,0.3
+38,Neighbors,KNN,Multioutput,Optimized,QB,53.0,72.3,0.44
+39,Neighbors,KNN,Multioutput,Optimized,RB,42.8,65.6,0.34
+40,Neighbors,KNN,Multioutput,Optimized,TE,21.3,31.0,0.43
+41,Neighbors,KNN,Multioutput,Optimized,WR,37.7,56.8,0.37
+42,Neighbors,KNN,Opponent Data,"Downselected, Standardized Features",QB,50.0,74.8,0.38
+43,Neighbors,KNN,Opponent Data,"Downselected, Standardized Features",RB,39.7,61.0,0.21
+44,Neighbors,KNN,Opponent Data,"Downselected, Standardized Features",TE,23.5,34.9,0.35
+45,Neighbors,KNN,Opponent Data,"Downselected, Standardized Features",WR,35.1,51.2,0.31
+46,Neighbors,KNN,Opponent Data,Optimized,QB,52.6,69.5,0.46
+47,Neighbors,KNN,Opponent Data,Optimized,RB,37.5,56.5,0.33
+48,Neighbors,KNN,Opponent Data,Optimized,TE,23.2,33.2,0.41
+49,Neighbors,KNN,Opponent Data,Optimized,WR,34.8,49.0,0.37
+50,Neighbors,KNN,PCA,"Downselected, Standardized Features",QB,65.0,84.8,0.39
+51,Neighbors,KNN,PCA,"Downselected, Standardized Features",RB,44.8,68.4,0.3
+52,Neighbors,KNN,PCA,"Downselected, Standardized Features",TE,23.3,32.3,0.4
+53,Neighbors,KNN,PCA,"Downselected, Standardized Features",WR,38.8,60.5,0.31
+54,Neighbors,KNN,PCA,Optimized,QB,63.4,82.1,0.43
+55,Neighbors,KNN,PCA,Optimized,RB,44.1,64.9,0.37
+56,Neighbors,KNN,PCA,Optimized,TE,22.7,32.1,0.41
+57,Neighbors,KNN,PCA,Optimized,WR,38.2,57.2,0.38
+58,Neighbors,KNN,Season Total + Game Mean Data,Base Model,All,33.1,48.8,0.41
+59,Neighbors,KNN,Season Total + Game Mean Data,Manual Feature Selection,All,31.2,47.2,0.45
+60,Neighbors,KNN,Season Total + Game Mean Data,Optimized + Standardized,All,30.7,48.8,0.41
+61,Neighbors,KNN,Season Total Data,Base Model,All,33.1,48.8,0.41
+62,Neighbors,KNN,Season Total Data,Hyperparameter Optimization,All,31.6,47.4,0.45
+63,Neighbors,KNN,Season Total Data,Manual Feature Selection,All,31.3,47.3,0.45
+64,Neighbors,KNN,Season Total Data,Standardization,All,32.0,48.4,0.42
+65,Neighbors,KNN,Split by Position,"Downselected, Standardized Features",QB,71.1,89.0,0.33
+66,Neighbors,KNN,Split by Position,"Downselected, Standardized Features",RB,44.8,68.4,0.3
+67,Neighbors,KNN,Split by Position,"Downselected, Standardized Features",TE,23.3,32.3,0.4
+68,Neighbors,KNN,Split by Position,"Downselected, Standardized Features",WR,39.6,60.1,0.32
+69,Neighbors,KNN,Split by Position,Optimized,QB,61.7,82.7,0.42
+70,Neighbors,KNN,Split by Position,Optimized,RB,43.3,65.9,0.35
+71,Neighbors,KNN,Split by Position,Optimized,TE,21.9,31.9,0.42
+72,Neighbors,KNN,Split by Position,Optimized,WR,38.4,57.6,0.37
+73,Neighbors,KNN,Teammate Data,"Downselected, Standardized Features",QB,52.6,72.7,0.48
+74,Neighbors,KNN,Teammate Data,"Downselected, Standardized Features",RB,40.2,63.7,0.23
+75,Neighbors,KNN,Teammate Data,"Downselected, Standardized Features",TE,27.2,33.7,0.2
+76,Neighbors,KNN,Teammate Data,"Downselected, Standardized Features",WR,38.1,54.3,0.32
+77,Neighbors,KNN,Teammate Data,Optimized,QB,55.8,70.6,0.51
+78,Neighbors,KNN,Teammate Data,Optimized,RB,43.5,59.1,0.34
+79,Neighbors,KNN,Teammate Data,Optimized,TE,24.2,30.7,0.34
+80,Neighbors,KNN,Teammate Data,Optimized,WR,37.0,52.9,0.35
+81,Neural Networks,MLP,Multioutput,"Downselected, Standardized Features",QB,56.3,76.0,0.38
+82,Neural Networks,MLP,Multioutput,"Downselected, Standardized Features",RB,45.0,63.6,0.38
+83,Neural Networks,MLP,Multioutput,"Downselected, Standardized Features",TE,20.9,30.2,0.46
+84,Neural Networks,MLP,Multioutput,"Downselected, Standardized Features",WR,38.7,56.8,0.37
+85,Neural Networks,MLP,Multioutput,Optimized,QB,54.2,73.5,0.42
+86,Neural Networks,MLP,Multioutput,Optimized,RB,43.5,60.7,0.44
+87,Neural Networks,MLP,Multioutput,Optimized,TE,20.7,29.4,0.49
+88,Neural Networks,MLP,Multioutput,Optimized,WR,37.5,55.3,0.4
+89,Neural Networks,MLP,Opponent Data,"Downselected, Standardized Features",QB,55.0,70.5,0.45
+90,Neural Networks,MLP,Opponent Data,"Downselected, Standardized Features",RB,40.4,54.5,0.37
+91,Neural Networks,MLP,Opponent Data,"Downselected, Standardized Features",TE,24.3,33.2,0.41
+92,Neural Networks,MLP,Opponent Data,"Downselected, Standardized Features",WR,36.0,52.2,0.28
+93,Neural Networks,MLP,Opponent Data,Optimized,QB,53.2,69.6,0.46
+94,Neural Networks,MLP,Opponent Data,Optimized,RB,40.8,54.5,0.37
+95,Neural Networks,MLP,Opponent Data,Optimized,TE,22.6,31.9,0.45
+96,Neural Networks,MLP,Opponent Data,Optimized,WR,35.2,49.7,0.35
+97,Neural Networks,MLP,PCA,"Downselected, Standardized Features",QB,76.0,101.3,0.13
+98,Neural Networks,MLP,PCA,"Downselected, Standardized Features",RB,54.9,78.5,0.07
+99,Neural Networks,MLP,PCA,"Downselected, Standardized Features",TE,29.8,44.2,-0.12
+100,Neural Networks,MLP,PCA,"Downselected, Standardized Features",WR,50.1,78.7,-0.17
+101,Neural Networks,MLP,PCA,Optimized,QB,75.0,96.0,0.22
+102,Neural Networks,MLP,PCA,Optimized,RB,46.6,68.3,0.3
+103,Neural Networks,MLP,PCA,Optimized,TE,21.7,31.5,0.43
+104,Neural Networks,MLP,PCA,Optimized,WR,40.3,59.1,0.34
+105,Neural Networks,MLP,Season Total + Game Mean Data,Base Model,All,33.7,50.9,0.36
+106,Neural Networks,MLP,Season Total + Game Mean Data,Manual Feature Selection,All,31.2,46.7,0.46
+107,Neural Networks,MLP,Season Total + Game Mean Data,Optimized + Standardized,All,31.3,46.7,0.46
+108,Neural Networks,MLP,Season Total Data,Base Model,All,33.2,49.3,0.4
+109,Neural Networks,MLP,Season Total Data,Hyperparameter Optimization,All,31.0,47.1,0.45
+110,Neural Networks,MLP,Season Total Data,Manual Feature Selection,All,31.8,47.1,0.45
+111,Neural Networks,MLP,Season Total Data,Standardization,All,31.7,47.4,0.45
+112,Neural Networks,MLP,Split by Position,"Downselected, Standardized Features",QB,62.9,84.4,0.4
+113,Neural Networks,MLP,Split by Position,"Downselected, Standardized Features",RB,46.2,64.4,0.38
+114,Neural Networks,MLP,Split by Position,"Downselected, Standardized Features",TE,22.7,32.0,0.41
+115,Neural Networks,MLP,Split by Position,"Downselected, Standardized Features",WR,39.2,58.3,0.36
+116,Neural Networks,MLP,Split by Position,Optimized,QB,62.4,81.0,0.44
+117,Neural Networks,MLP,Split by Position,Optimized,RB,44.2,61.9,0.42
+118,Neural Networks,MLP,Split by Position,Optimized,TE,22.5,32.6,0.39
+119,Neural Networks,MLP,Split by Position,Optimized,WR,38.3,56.6,0.39
+120,Neural Networks,MLP,Teammate Data,"Downselected, Standardized Features",QB,55.7,75.4,0.44
+121,Neural Networks,MLP,Teammate Data,"Downselected, Standardized Features",RB,41.2,58.0,0.36
+122,Neural Networks,MLP,Teammate Data,"Downselected, Standardized Features",TE,23.7,31.3,0.31
+123,Neural Networks,MLP,Teammate Data,"Downselected, Standardized Features",WR,40.7,57.2,0.24
+124,Neural Networks,MLP,Teammate Data,Optimized,QB,54.6,69.8,0.52
+125,Neural Networks,MLP,Teammate Data,Optimized,RB,40.0,56.4,0.4
+126,Neural Networks,MLP,Teammate Data,Optimized,TE,23.1,31.1,0.32
+127,Neural Networks,MLP,Teammate Data,Optimized,WR,38.9,52.4,0.36
+128,Regression,Bayesian Ridge,Season Total Data,Base Model,All,31.6,47.3,0.45
+129,Regression,Bayesian Ridge,Season Total Data,Hyperparameter Optimization,All,31.6,47.3,0.45
+130,Regression,Bayesian Ridge,Season Total Data,Manual Feature Selection,All,31.7,47.4,0.45
+131,Regression,Bayesian Ridge,Season Total Data,Standardization,All,31.6,47.2,0.45
+132,Regression,ElasticNet,Multioutput,"Downselected, Standardized Features",QB,52.7,72.2,0.44
+133,Regression,ElasticNet,Multioutput,"Downselected, Standardized Features",RB,44.5,61.4,0.42
+134,Regression,ElasticNet,Multioutput,"Downselected, Standardized Features",TE,21.2,29.7,0.48
+135,Regression,ElasticNet,Multioutput,"Downselected, Standardized Features",WR,37.7,54.5,0.42
+136,Regression,ElasticNet,Multioutput,Optimized,QB,53.3,72.7,0.43
+137,Regression,ElasticNet,Multioutput,Optimized,RB,43.9,60.8,0.43
+138,Regression,ElasticNet,Multioutput,Optimized,TE,20.8,29.0,0.5
+139,Regression,ElasticNet,Multioutput,Optimized,WR,37.3,54.0,0.43
+140,Regression,ElasticNet,Opponent Data,"Downselected, Standardized Features",QB,53.0,68.7,0.48
+141,Regression,ElasticNet,Opponent Data,"Downselected, Standardized Features",RB,40.2,53.7,0.39
+142,Regression,ElasticNet,Opponent Data,"Downselected, Standardized Features",TE,23.6,32.2,0.45
+143,Regression,ElasticNet,Opponent Data,"Downselected, Standardized Features",WR,35.7,49.2,0.36
+144,Regression,ElasticNet,Opponent Data,Optimized,QB,52.4,68.1,0.48
+145,Regression,ElasticNet,Opponent Data,Optimized,RB,39.9,52.9,0.41
+146,Regression,ElasticNet,Opponent Data,Optimized,TE,23.0,31.7,0.46
+147,Regression,ElasticNet,Opponent Data,Optimized,WR,35.4,49.0,0.37
+148,Regression,ElasticNet,PCA,"Downselected, Standardized Features",QB,61.2,80.8,0.45
+149,Regression,ElasticNet,PCA,"Downselected, Standardized Features",RB,44.9,62.1,0.42
+150,Regression,ElasticNet,PCA,"Downselected, Standardized Features",TE,21.6,30.1,0.48
+151,Regression,ElasticNet,PCA,"Downselected, Standardized Features",WR,38.2,55.3,0.42
+152,Regression,ElasticNet,PCA,Optimized,QB,61.2,80.9,0.45
+153,Regression,ElasticNet,PCA,Optimized,RB,44.4,61.6,0.43
+154,Regression,ElasticNet,PCA,Optimized,TE,20.8,30.1,0.48
+155,Regression,ElasticNet,PCA,Optimized,WR,37.8,55.3,0.42
+156,Regression,ElasticNet,Season Total + Game Mean Data,Base Model,All,31.6,47.2,0.45
+157,Regression,ElasticNet,Season Total + Game Mean Data,Manual Feature Selection,All,31.5,47.2,0.45
+158,Regression,ElasticNet,Season Total + Game Mean Data,Optimized + Standardized,All,31.4,46.8,0.46
+159,Regression,ElasticNet,Season Total Data,Base Model,All,31.6,47.3,0.45
+160,Regression,ElasticNet,Season Total Data,Hyperparameter Optimization,All,31.6,47.3,0.45
+161,Regression,ElasticNet,Season Total Data,Manual Feature Selection,All,31.7,47.4,0.45
+162,Regression,ElasticNet,Season Total Data,Standardization,All,31.7,47.2,0.45
+163,Regression,ElasticNet,Split by Position,"Downselected, Standardized Features",QB,61.9,81.5,0.44
+164,Regression,ElasticNet,Split by Position,"Downselected, Standardized Features",RB,44.3,61.6,0.43
+165,Regression,ElasticNet,Split by Position,"Downselected, Standardized Features",TE,20.9,29.7,0.49
+166,Regression,ElasticNet,Split by Position,"Downselected, Standardized Features",WR,37.8,54.9,0.43
+167,Regression,ElasticNet,Split by Position,Optimized,QB,31.9,81.5,0.44
+168,Regression,ElasticNet,Split by Position,Optimized,RB,44.3,61.6,0.43
+169,Regression,ElasticNet,Split by Position,Optimized,TE,20.9,29.7,0.49
+170,Regression,ElasticNet,Split by Position,Optimized,WR,37.8,54.9,0.43
+171,Regression,ElasticNet,Teammate Data,"Downselected, Standardized Features",QB,53.2,69.0,0.53
+172,Regression,ElasticNet,Teammate Data,"Downselected, Standardized Features",RB,40.6,56.3,0.4
+173,Regression,ElasticNet,Teammate Data,"Downselected, Standardized Features",TE,22.7,29.6,0.38
+174,Regression,ElasticNet,Teammate Data,"Downselected, Standardized Features",WR,37.1,50.0,0.42
+175,Regression,ElasticNet,Teammate Data,Optimized,QB,52.9,68.5,0.54
+176,Regression,ElasticNet,Teammate Data,Optimized,RB,39.5,54.9,0.43
+177,Regression,ElasticNet,Teammate Data,Optimized,TE,22.0,29.2,0.4
+178,Regression,ElasticNet,Teammate Data,Optimized,WR,36.7,49.6,0.43
+179,Regression,Lasso,Multioutput,"Downselected, Standardized Features",QB,54.4,74.1,0.41
+180,Regression,Lasso,Multioutput,"Downselected, Standardized Features",RB,43.6,60.7,0.44
+181,Regression,Lasso,Multioutput,"Downselected, Standardized Features",TE,20.6,29.8,0.47
+182,Regression,Lasso,Multioutput,"Downselected, Standardized Features",WR,37.4,54.8,0.41
+183,Regression,Lasso,Multioutput,Optimized,QB,53.3,72.7,0.43
+184,Regression,Lasso,Multioutput,Optimized,RB,43.9,60.8,0.43
+185,Regression,Lasso,Multioutput,Optimized,TE,20.8,29.0,0.5
+186,Regression,Lasso,Multioutput,Optimized,WR,37.3,54.0,0.43
+187,Regression,Lasso,Opponent Data,"Downselected, Standardized Features",QB,53.3,69.6,0.46
+188,Regression,Lasso,Opponent Data,"Downselected, Standardized Features",RB,40.3,53.3,0.4
+189,Regression,Lasso,Opponent Data,"Downselected, Standardized Features",TE,22.9,31.6,0.47
+190,Regression,Lasso,Opponent Data,"Downselected, Standardized Features",WR,35.5,49.2,0.36
+191,Regression,Lasso,Opponent Data,Optimized,QB,52.4,68.1,0.48
+192,Regression,Lasso,Opponent Data,Optimized,RB,39.9,52.9,0.41
+193,Regression,Lasso,Opponent Data,Optimized,TE,23.0,31.7,0.46
+194,Regression,Lasso,Opponent Data,Optimized,WR,35.4,49.0,0.37
+195,Regression,Lasso,PCA,"Downselected, Standardized Features",QB,61.3,81.0,0.44
+196,Regression,Lasso,PCA,"Downselected, Standardized Features",RB,44.5,61.8,0.43
+197,Regression,Lasso,PCA,"Downselected, Standardized Features",TE,21.4,30.1,0.48
+198,Regression,Lasso,PCA,"Downselected, Standardized Features",WR,38.1,55.4,0.42
+199,Regression,Lasso,PCA,Optimized,QB,60.9,80.4,0.45
+200,Regression,Lasso,PCA,Optimized,RB,44.5,61.9,0.43
+201,Regression,Lasso,PCA,Optimized,TE,21.1,30.1,0.48
+202,Regression,Lasso,PCA,Optimized,WR,37.8,55.5,0.42
+203,Regression,Lasso,Season Total + Game Mean Data,Base Model,All,31.6,47.2,0.45
+204,Regression,Lasso,Season Total + Game Mean Data,Manual Feature Selection,All,31.5,47.2,0.45
+205,Regression,Lasso,Season Total + Game Mean Data,Optimized + Standardized,All,31.4,46.8,0.46
+206,Regression,Lasso,Season Total Data,Base Model,All,31.6,47.3,0.45
+207,Regression,Lasso,Season Total Data,Hyperparameter Optimization,All,31.8,47.4,0.45
+208,Regression,Lasso,Season Total Data,Manual Feature Selection,All,31.4,47.4,0.45
+209,Regression,Lasso,Season Total Data,Standardization,All,31.8,47.4,0.45
+210,Regression,Lasso,Split by Position,"Downselected, Standardized Features",QB,61.6,81.8,0.43
+211,Regression,Lasso,Split by Position,"Downselected, Standardized Features",RB,44.2,61.6,0.43
+212,Regression,Lasso,Split by Position,"Downselected, Standardized Features",TE,20.9,29.5,0.5
+213,Regression,Lasso,Split by Position,"Downselected, Standardized Features",WR,37.8,55.0,0.43
+214,Regression,Lasso,Split by Position,Optimized,QB,61.9,81.5,0.44
+215,Regression,Lasso,Split by Position,Optimized,RB,44.3,61.6,0.43
+216,Regression,Lasso,Split by Position,Optimized,TE,20.9,29.7,0.49
+217,Regression,Lasso,Split by Position,Optimized,WR,37.8,54.9,0.43
+218,Regression,Lasso,Teammate Data,"Downselected, Standardized Features",QB,53.0,69.9,0.52
+219,Regression,Lasso,Teammate Data,"Downselected, Standardized Features",RB,39.3,54.8,0.43
+220,Regression,Lasso,Teammate Data,"Downselected, Standardized Features",TE,22.1,29.2,0.4
+221,Regression,Lasso,Teammate Data,"Downselected, Standardized Features",WR,37.0,50.1,0.42
+222,Regression,Lasso,Teammate Data,Optimized,QB,52.9,68.5,0.54
+223,Regression,Lasso,Teammate Data,Optimized,RB,39.5,54.9,0.43
+224,Regression,Lasso,Teammate Data,Optimized,TE,22.0,29.2,0.4
+225,Regression,Lasso,Teammate Data,Optimized,WR,36.7,49.6,0.43
+226,Regression,Linear,Season Total Data,Base Model,All,31.7,47.1,0.45
+227,Regression,Ridge,Season Total Data,Base Model,All,31.7,47.4,0.45
+228,Regression,Ridge,Season Total Data,Hyperparameter Optimization,All,31.6,47.3,0.45
+229,SVM,Kernel Ridge (Linear),Season Total Data,Base Model,All,29.9,50.4,0.38
+230,SVM,Kernel Ridge (Linear),Season Total Data,Hyperparameter Optimization,All,29.9,50.3,0.38
+231,SVM,Kernel Ridge (Linear),Season Total Data,Manual Feature Selection,All,29.7,50.2,0.38
+232,SVM,Kernel Ridge (Linear),Season Total Data,Standardization,All,51.7,67.7,-0.13
